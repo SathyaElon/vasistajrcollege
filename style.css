@@ -26,11 +26,13 @@ nav ul {
 nav ul li {
     display: flex;
     margin: 0 10px;
+    text-align: center;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 
 main {
