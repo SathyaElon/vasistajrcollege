@@ -16,25 +16,25 @@ header {
 }
 
 header .logo {
-    font-size: 13.2em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
 header nav ul {
     list-style: circle;
-    margin: 0.1;
-    padding: 0;
+    margin: 2.1;
+    padding: 1.0;
     display: flex;
 }
 
 header nav ul li {
-    margin-left: 0em;
+    margin-left: 1.0em;
 }
 
 header nav ul li a {
     color: #f5e8e8;
     text-decoration: none;
-    padding: 0em 0em;
+    padding: 1em 2em;
 }
 
 header nav ul li a:hover {
