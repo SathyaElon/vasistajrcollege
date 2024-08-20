@@ -1,111 +1,50 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 2.0;
+* {
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 header {
-    background-color: #003366;
-    color: #f1e7e7;
-    padding: 1.em 0.0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    
-}
-
-header .logo {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-header nav ul {
-    list-style: circle;
-    margin: 0.1;
-    padding: 0.1;
-    display: flex;
-}
-
-header nav ul li {
-    margin-left: 1.0em;
-}
-
-header nav ul li a {
-    color: #f5e8e8;
-    text-decoration: none;
-    padding: 1em 2em;
-}
-
-header nav ul li a:hover {
-    background-color: #126acf;
-    border-radius: 0.3px;
-}
-
-.wel {
-    color: #d11828;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
     text-align: center;
-    padding: 0.1em 0;
 }
 
-.wel h1 {
-    font-size: 4.5em;
-    margin: 0.1;
-    padding: em 0;
-    color: #0c559e;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.wel p {
-    font-size: 3.5em;
-    color: #16acb1;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
 
 footer {
-    background-color: #003366;
-    color: #ffffff;
+    background-color: #333;
+    color: white;
     text-align: center;
-    padding: 0.1em 0;
-}
-.About {
-    color:  #0c559e;
-    text-align: center;
-    font-size:5.5px
-    padding: 0.0em 0.1em;
-    margin-top: 0.0%;
+    padding: 10px 0;
 }
 
-.ap{
-    text-align: center;
-    color: #16acb1;
-    font-size: 4.5px;
-}
-.img {
-    height: 50vh;
-    width: 55vw;
-}
-.Aboutc {
-    color: #e61c0d;
-    text-align: center;
-    padding: 0em 1em;
-  }
-  .Mar {
-    background-color: #003366 ;
-   font-size: 10.0px;
-    color: #f1e7e7;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   }
-.About us {
-    font-size:4.5px
-}
-
-/* Responsive styles */
-
-
-
-}
 @media (max-width: 600px) {
     nav ul li {
         display: block;
