@@ -71,14 +71,14 @@ footer {
 .About {
     color:  #0c559e;
     text-align: center;
-    padding: 1.5em 0;
-    margin-top: 0%;
+    padding: 1.5em 1.0;
+    margin-top: 1%;
 }
 
 .ap{
     text-align: center;
     color: #16acb1;
-    font-size: 25px;
+    font-size: 35px;
 }
 .img {
     height: 50vh;
@@ -87,11 +87,11 @@ footer {
 .Aboutc {
     color: #e61c0d;
     text-align: center;
-    padding: 5em 0;
+    padding: 5em 7;
   }
   .Mar {
     background-color: #003366 ;
-   font-size: 25px;
+   font-size: 20px;
     color: #f1e7e7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    }
@@ -104,16 +104,16 @@ footer {
     }
 
     nav ul li {
-        margin-bottom: 1.6em;
+        margin-bottom: 0.6em;
     }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 780px) {
     body {
         font-size: 2.5em;
     }
 
     nav ul li a {
-        padding: 0.3rem;
+        padding: 10.5em;
     }
 }
