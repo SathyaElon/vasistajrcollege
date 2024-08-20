@@ -32,11 +32,12 @@ nav ul li a {
 
 main {
     padding: 20px;
-    colour: #4CAF50;
+    
 }
 
 section {
     margin-bottom: 20px;
+    colour: #4CAF50;
 }
 
 footer {
