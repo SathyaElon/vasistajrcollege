@@ -1,4 +1,4 @@
-unibody {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -12,52 +12,52 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1em;
+    padding: 0.1em;
 }
 
 header .logo {
-    font-size: 1.5em;
+    font-size: 0.5em;
     font-weight: bold;
 }
 
 header nav ul {
     list-style: circle;
-    margin: 2;
+    margin: 0.1;
     padding: 0;
     display: flex;
 }
 
 header nav ul li {
-    margin-left: 2em;
+    margin-left: 0.1em;
 }
 
 header nav ul li a {
     color: #f5e8e8;
     text-decoration: none;
-    padding: 0.3em 1em;
+    padding: 0.1em 0.1em;
 }
 
 header nav ul li a:hover {
     background-color: #126acf;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .wel {
     color: #d11828;
     text-align: center;
-    padding: 0.5em 0;
+    padding: 0.2em 0;
 }
 
 .wel h1 {
-    font-size: 2.5em;
-    margin: 2;
-    padding: 5em 0;
+    font-size: 1.5em;
+    margin: 0.1;
+    padding: 1em 0;
     color: #0c559e;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .wel p {
-    font-size: 3.5em;
+    font-size: 1.5em;
     color: #16acb1;
 }
 
@@ -71,14 +71,14 @@ footer {
 .About {
     color:  #0c559e;
     text-align: center;
-    padding: 1.5em 1.0;
-    margin-top: 1%;
+    padding: 0.5em 0.1em;
+    margin-top: 0%;
 }
 
 .ap{
     text-align: center;
     color: #16acb1;
-    font-size: 3.5px;
+    font-size: 1.5px;
 }
 .img {
     height: 50vh;
@@ -87,7 +87,7 @@ footer {
 .Aboutc {
     color: #e61c0d;
     text-align: center;
-    padding: 5em 7;
+    padding: 2em 0;
   }
   .Mar {
     background-color: #003366 ;
@@ -96,27 +96,27 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    }
 .About us {
-    font-size:3.5px
+    font-size:1.5px
 }
 
 /* Responsive styles */
 @media (max-width: 770px) {
     nav ul {
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
     }
 
     nav ul li {
-        margin-bottom: 0.6em;
+        margin-bottom: 0.2em;
     }
 }
 
 @media (max-width: 790px) {
     body {
-        font-size: 1.5em;
+        font-size: 1.0em;
     }
 
     nav ul li a {
-        padding: 0.5em;
+        padding: 0.3em;
     }
 }
