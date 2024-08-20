@@ -95,6 +95,9 @@ footer {
     color: #f1e7e7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    }
+.About us {
+    font-size:3.5px
+}
 
 /* Responsive styles */
 @media (max-width: 770px) {
@@ -108,12 +111,12 @@ footer {
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 790px) {
     body {
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
 
     nav ul li a {
-        padding: 10.5em;
+        padding: 0.5em;
     }
 }
