@@ -12,12 +12,12 @@ body {
 header {
     background-color: #4CAF50;
     color: white;
-    padding: 20px;
+    padding: 5px;
     
 }
 
 nav ul {
-    list-style-type: column;
+    list-style-type: inline;
     padding: 0px;
     
     
