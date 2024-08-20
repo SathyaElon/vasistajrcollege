@@ -22,19 +22,19 @@ header .logo {
 
 header nav ul {
     list-style: circle;
-    margin: 8.1;
+    margin: 1.1;
     padding: 1.0;
     display: flex;
 }
 
 header nav ul li {
-    margin-left: 1.0em;
+    margin-left: 0.1em;
 }
 
 header nav ul li a {
     color: #f5e8e8;
     text-decoration: none;
-    padding: 1em 2em;
+    padding: 0em 2em;
 }
 
 header nav ul li a:hover {
@@ -49,7 +49,7 @@ header nav ul li a:hover {
 }
 
 .wel h1 {
-    font-size: 5.5em;
+    font-size: 4.5em;
     margin: 0.1;
     padding: em 0;
     color: #0c559e;
@@ -72,7 +72,7 @@ footer {
     color:  #0c559e;
     text-align: center;
     font-size:5.5px
-    padding: 0.2em 0.1em;
+    padding: 0.0em 0.1em;
     margin-top: 1.0%;
 }
 
@@ -112,14 +112,7 @@ footer {
     }
 }
 
-@media (max-width: 800px) {
-    body {
-        font-size: 5.0em;
-    }
 
-    nav ul li a {
-        padding: 1.2em;
-    }
 }
 @media (max-width: 600px) {
     nav ul li {
