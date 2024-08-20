@@ -28,13 +28,13 @@ header nav ul {
 }
 
 header nav ul li {
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
 header nav ul li a {
     color: #f5e8e8;
     text-decoration: none;
-    padding: 0.5em 1em;
+    padding: 0.3em 1em;
 }
 
 header nav ul li a:hover {
@@ -104,13 +104,13 @@ footer {
     }
 
     nav ul li {
-        margin-bottom: 1rem;
+        margin-bottom: 15em;
     }
 }
 
 @media (max-width: 800px) {
     body {
-        font-size: 0.5rem;
+        font-size: 0.4em;
     }
 
     nav ul li a {
